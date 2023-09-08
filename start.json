@@ -1,0 +1,10 @@
+{
+  "run": [
+    {
+    "method": "shell.run",
+    "params": {
+      "message": "../activate.bat tokenflow3"
+    }
+  }
+  ]
+}
