@@ -34,7 +34,7 @@
       "method": "shell.enter",
       "params": {
       "message": "y",
-      "on": [{ "event": null, "return": true }]
+      "on": [{ "event": "/.+/", "return": true }]
       }
     },
     {
