@@ -47,7 +47,8 @@
     {
       "method": "shell.enter",
       "params": {
-        "message": "call activate tokenflow"
+        "message": "call activate tokenflow",
+        "on": [{ "event": "/.+/", "return": true }]
       }
     },
     {
@@ -55,12 +56,7 @@
       "params": {
         "message": "conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia",
       
-      "on" : [
-        {
-          "event": "/Proceed ([y]/n)?/",
-          "return": true 
-        }
-      ]
+      "on": [{ "event": "/.+/", "return": true }]
     }
     },
     {
@@ -73,7 +69,8 @@
     {
       "method": "shell.enter",
       "params": {
-        "message": "pip install -r requirements.txt"
+        "message": "pip install -r requirements.txt",
+        "on": [{ "event": "/.+/", "return": true }]
       }
     }
 
