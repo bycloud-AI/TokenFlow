@@ -25,13 +25,7 @@
     {
       "method": "shell.enter",
       "params": {
-      "message": "conda create -n tokenflow python=3.9",
-      "on" : [
-        {
-          "event": "/ \\([yY]\/[nN]\\)\\?| \\([nN]\/[yY]\\)\\?/",
-          "return": true 
-        }
-      ]
+      "message": "conda create -n tokenflow python=3.9"
       }
       
     },
