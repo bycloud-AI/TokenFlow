@@ -19,22 +19,7 @@
     {
       "method": "shell.enter",
       "params": {
-      "message": "conda create -y -n tokenflow python=3.9",
-      "on": [{ "event": null, "return": true }]
-      }
-      
-    },
-        {
-      "method": "shell.enter",
-      "params": {
-      "message": "y",
-      "on": [{ "event": "/.+/", "return": true }]
-      }
-    },
-      {
-      "method": "shell.enter",
-      "params": {
-      "message": "\n",
+      "message": "conda create -n tokenflow python=3.9 -y",
       "on": [{ "event": null, "return": true }]
       }
     },
@@ -48,34 +33,19 @@
     {
       "method": "shell.enter",
       "params": {
-        "message": "conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia",
+        "message": "conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y",
       
-      "on": [{ "event": "/Proceed ([y]/n)?/", "return": true }]
+      "on": [{ "event": null, "return": true }]
     }
     },
     {
       "method": "shell.enter",
       "params": {
-      "message": "\n",
-      "on": [{ "event": null, "return": true }]
-      }
-    },
-    {
-      "method": "shell.enter",
-      "params": {
-        "message": "conda install av -c conda-forge",
+        "message": "conda install av -c conda-forge -y",
       
       "on": [{ "event": "/Proceed ([y]/n)?/", "return": true }]
     }
     },
-    {
-      "method": "shell.enter",
-      "params": {
-      "message": "\n",
-      "on": [{ "event": null, "return": true }]
-      }
-    },
-    
     {
       "method": "shell.enter",
       "params": {
