@@ -28,7 +28,7 @@
       "message": "conda create -n tokenflow python=3.9",
       "on" : [
         {
-          "event": "Proceed ([y]/n)?",
+          "event": "Proceed ([y]/n)?"
         }
       ]
       }
@@ -53,7 +53,7 @@
       
       "on" : [
         {
-          "event": "Proceed ([y]/n)?",
+          "event": "Proceed ([y]/n)?"
         }
       ]
     }
@@ -61,7 +61,7 @@
     {
       "method": "shell.enter",
       "params": {
-      "message": "y",
+      "message": "y"
       }
     },
     {
