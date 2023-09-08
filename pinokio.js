@@ -4,6 +4,6 @@ module.exports = {
       icon: "icon.png",
   menu: [{
     html: "<i class='fa-solid fa-plug'></i> Install",
-    href: "install.json"
+    href: "install.json?run=true&fullscreen=true"
   }]
 }
