@@ -1,6 +1,13 @@
 {
   "run": [
     {
+      "method": "input",
+      "params": {
+        "title": "Starting...",
+        "description": "The installation of the dependencies will start now..."
+      }
+    },
+    {
       "method": "shell.run",
       "params": {
         "message": "git clone https://github.com/omerbt/TokenFlow.git"
