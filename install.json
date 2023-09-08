@@ -10,7 +10,7 @@
     {
       "method": "shell.start",
       "params": {
-        "path": "tokenflow",
+        "path": "",
         "env": {
           "HF_HOME": "../"
         }
