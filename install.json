@@ -8,17 +8,11 @@
       }
     },
     {
-      "method": "shell.run",
-      "params": {
-        "message": "git clone https://github.com/omerbt/TokenFlow.git"
-      }
-    },
-    {
       "method": "shell.start",
       "params": {
         "path": "tokenflow",
         "env": {
-          "HF_HOME": "../tokenflow"
+          "HF_HOME": "../"
         }
       }
     },
