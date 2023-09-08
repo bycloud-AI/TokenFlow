@@ -37,16 +37,10 @@
       "on": [{ "event": "/.+/", "return": true }]
       }
     },
-    {
-  "method": "sleep",
-  "params": {
-    "sec": 10
-  }
-},
       {
       "method": "shell.enter",
       "params": {
-      "message": "y",
+      "message": "\n",
       "on": [{ "event": null, "return": true }]
       }
     },
