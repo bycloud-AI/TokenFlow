@@ -28,7 +28,7 @@
       "message": "conda create -n tokenflow python=3.9",
       "on" : [
         {
-          "event": "/Proceed \\([yY]\/[nN]\\)\\?|Proceed \\([nN]\/[yY]\\)\\?/",
+          "event": "/ \\([yY]\/[nN]\\)\\?| \\([nN]\/[yY]\\)\\?/",
           "return": true 
         }
       ]
