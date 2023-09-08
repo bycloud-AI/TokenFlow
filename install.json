@@ -47,7 +47,7 @@
     {
       "method": "shell.enter",
       "params": {
-        "message": "conda activate tokenflow"
+        "message": "call activate tokenflow"
       }
     },
     {
@@ -66,7 +66,8 @@
     {
       "method": "shell.enter",
       "params": {
-      "message": "y"
+      "message": "y",
+      "on": [{ "event": "/.+/", "return": true }]
       }
     },
     {
