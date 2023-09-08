@@ -14,24 +14,6 @@
       }
     },
     {
-      "method": "shell.run",
-      "params": {
-        "message": "curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe -o miniconda.exe",
-      }
-    },
-    {
-      "method": "shell.run",
-      "params": {
-        "message": "start /wait "" miniconda.exe /S",
-      }
-    },
-    {
-      "method": "shell.run",
-      "params": {
-        "message": "del miniconda.exe",
-    }
-    },
-    {
       "method": "shell.start",
       "params": {
         "path": "tokenflow",
@@ -55,13 +37,13 @@
         {
       "method": "shell.enter",
       "params": {
-      "message": "y",
+      "message": "y"
       }
     },
     {
       "method": "shell.enter",
       "params": {
-        "message": "conda activate tokenflow",
+        "message": "conda activate tokenflow"
       }
     },
     {
@@ -85,7 +67,7 @@
     {
       "method": "shell.enter",
       "params": {
-        "message": "pip install -r requirements.txt",
+        "message": "pip install -r requirements.txt"
       }
     }
 
