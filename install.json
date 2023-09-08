@@ -38,7 +38,7 @@
       }
     },
     {
-  "method": "process.wait",
+  "method": "sleep",
   "params": {
     "sec": 10
   }
