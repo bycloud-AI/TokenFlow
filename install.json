@@ -48,7 +48,7 @@
       "method": "shell.enter",
       "params": {
         "message": "call activate tokenflow",
-        "on": [{ "event": "/^.*$/", "return": true }]
+        "on": [{ "event": "/.+/", "return": true }]
       }
     },
     {
