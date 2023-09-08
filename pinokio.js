@@ -6,5 +6,10 @@ module.exports = {
     html: "<i class='fa-solid fa-plug'></i> Install",
     type: "link",
     href: "install.json?run=true&fullscreen=true"
+  },
+  {
+    html: "<i class='fa-solid fa-plug'></i> Start",
+    type: "link",
+    href: "start.json?run=true&fullscreen=true"
   }]
 }
