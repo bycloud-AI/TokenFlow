@@ -37,6 +37,12 @@
       "on": [{ "event": null, "return": true }]
       }
     },
+    {
+  "method": "process.wait",
+  "params": {
+    "sec": 5
+  }
+},
       {
       "method": "shell.enter",
       "params": {
