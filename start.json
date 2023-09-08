@@ -3,7 +3,7 @@
     {
     "method": "shell.run",
     "params": {
-      "message": "../activate.bat tokenflow3"
+      "message": "%cd%/activate.bat tokenflow3"
     }
   }
   ]
