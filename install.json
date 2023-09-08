@@ -43,7 +43,7 @@
       "params": {
         "message": "conda install av -c conda-forge -y",
       
-      "on": [{ "event": "/Proceed ([y]/n)?/", "return": true }]
+      "on": [{ "event": null, "return": true }]
     }
     },
     {
