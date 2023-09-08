@@ -25,7 +25,8 @@
     {
       "method": "shell.enter",
       "params": {
-      "message": "conda create -n tokenflow python=3.9"
+      "message": "conda create -n tokenflow python=3.9",
+      "on": [{ "event": "/.+/", "return": true }]
       }
       
     },
