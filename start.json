@@ -3,7 +3,7 @@
     {
     "method": "shell.run",
     "params": {
-      "message": "start cmd.exe /k activate.bat tokenflow"
+      "message": "start cmd.exe /k activate.bat tokenflow && explorer.exe ."
     }
   }
   ]
