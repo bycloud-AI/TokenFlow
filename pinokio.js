@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Tokenflow",
+  title: "TokenFlow",
       description: "TokenFlow: Consistent Diffusion Features for Consistent Video Editing",
       icon: "icon.png",
   menu: [{
